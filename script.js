@@ -2,7 +2,6 @@ const listaTarefas = document.getElementById("listaTarefas");
 const inputTarefa = document.getElementById("novaTarefa");
 const btnAdicionar = document.getElementById("adicionar");
 
-// Carrega tarefas salvas ao iniciar
 window.addEventListener("load", carregarTarefas);
 
 btnAdicionar.addEventListener("click", function () {
